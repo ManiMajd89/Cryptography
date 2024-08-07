@@ -3,7 +3,8 @@ Cryptography has been studied for thousands of years to create secret messages t
 
 One early example of cryptography is the Caesar cipher, which encrypts a message by taking each letter in the message and replacing it with a “shifted” letter. If you shift the letter A by one space, you get the letter B. If you shift the letter A by two spaces, you get the letter C. The Caesar cipher is overly simple and it wouldn’t take much to break the encryption. Even though the Caesar cipher is no longer used, it still makes for a great learning example for cryptography.
 
-Define the Problem
+### Define the Problem
+
 Given a sensitive message that should not be read by others, I wanted to devise an algorithm to encrypt the message so that only someone with the secret key can access it. There are many options available for encryption, ranging from classic methods that are not secure to more modern ones that are highly mathematical. Since the message being encrypted is not of great importance, it makes sense to use an easier implementation, such as the Caesar cipher.
 
 More precisely, I developed code to do two things using the Caesar cipher:
