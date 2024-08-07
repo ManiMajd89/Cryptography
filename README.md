@@ -27,22 +27,22 @@ For example, with a key of 3:
 
 Here's how each letter is shifted:
 
-H -> K (H is the 8th letter, K is the 11th, so shifted by 3)
-E -> H (E is the 5th letter, H is the 8th, so shifted by 3)
-L -> O (L is the 12th letter, O is the 15th, so shifted by 3)
-L -> O (Same as above)
-O -> R (O is the 15th letter, R is the 18th, so shifted by 3)
+* H -> K (H is the 8th letter, K is the 11th, so shifted by 3)
+* E -> H (E is the 5th letter, H is the 8th, so shifted by 3)
+* L -> O (L is the 12th letter, O is the 15th, so shifted by 3)
+* L -> O (Same as above)
+* O -> R (O is the 15th letter, R is the 18th, so shifted by 3)
 
 ## The ASCII Table
 The ASCII (American Standard Code for Information Interchange) table is a character encoding standard for electronic communication. It represents text in computers and other devices that use text.
 
 Each character is assigned a unique integer value. For example:
 
-'A' -> 65
-'B' -> 66
-'C' -> 67
-'a' -> 97
-'b' -> 98
-'c' -> 99
+* 'A' -> 65
+* 'B' -> 66
+* 'C' -> 67
+* 'a' -> 97
+* 'b' -> 98
+* 'c' -> 99
 
 Understanding ASCII values is crucial for implementing the Caesar cipher in code, as it allows us to convert characters to their integer values, perform the shift, and convert them back to characters.
