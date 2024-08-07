@@ -33,7 +33,7 @@ L -> O (L is the 12th letter, O is the 15th, so shifted by 3)
 L -> O (Same as above)
 O -> R (O is the 15th letter, R is the 18th, so shifted by 3)
 
-### The ASCII Table
+## The ASCII Table
 The ASCII (American Standard Code for Information Interchange) table is a character encoding standard for electronic communication. It represents text in computers and other devices that use text.
 
 Each character is assigned a unique integer value. For example:
